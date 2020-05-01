@@ -2,9 +2,7 @@ function myKeyPress(e){
 
     /* TODO: retrieve the value from the text input */
     var mytextbox = document.getElementById("textinput").value;
-  
-  
-    
+ 
   
     var keyPressed;
     if(window.event) { // IE
@@ -33,16 +31,10 @@ function myKeyPress(e){
     
 
     console.log("Key Pressed = " + x);
-    console.log("  Formatted = " + y);
-  
-  
-  
-    
+    console.log("  Formatted = " + y); 
   
   }
 
-  
- 
   
   function formatPhoneNumber(value){
   
